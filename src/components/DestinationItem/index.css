@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.imageConatiner {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  margin: 5px;
+  justify-content: flex-start;
+}
+img {
+  border-radius: 20px;
+  width: 200;
+  height: 110px;
+  max-width: 200px;
+  max-height: 150px;
+}
+p {
+  color: #252627;
+}

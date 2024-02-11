@@ -1,0 +1,49 @@
+/* Write your CSS here */
+input {
+  color: #0f172a;
+}
+h1 {
+  color: #000000;
+}
+.inputElement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search {
+  font-size: medium;
+  height: 20px;
+  width: 20px;
+  margin-left: 2px;
+}
+
+@media (max-width: 767px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+  }
+  .listLayout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 1;
+  }
+  .listLayout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
